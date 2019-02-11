@@ -313,7 +313,8 @@ fit.NB <- function(CountMatrix, Strains, test = FALSE){
     }, error = function(err){
       print(paste('Using alt method for', GeneID))
       model_sub <- try({lme4::glmer.nb(formula = expr ~ 1 + (1|strain), 
-                                       data = dat_sub, verbose = F)}, silent=T)
+                                       data = dat_sub, verbose = F,
+                                       tol = 1e-4)}, silent=T)
       
       if (class(model_sub) != "try-error"){
         sum_model_sub <- summary(model_sub)
