@@ -4,7 +4,9 @@
 \name{simData}
 \alias{simData}
 \title{A simulated sequencing dataset.}
-\format{A matrix with 100 rows and 175 columns}
+\format{
+A matrix with 100 rows and 175 columns
+}
 \usage{
 simData
 }
@@ -12,4 +14,3 @@ simData
 A matrix containing simulated counts for 100 features (rows) and 175 samples (columns)
 }
 \keyword{datasets}
-

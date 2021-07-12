@@ -4,7 +4,9 @@
 \name{weights_voom}
 \alias{weights_voom}
 \title{Weights used in the voom transformation.}
-\format{An object of class \code{matrix} with 881 rows and 175 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 881 rows and 175 columns.
+}
 \usage{
 weights_voom
 }
@@ -12,4 +14,3 @@ weights_voom
 Weights used in the voom transformation.
 }
 \keyword{datasets}
-

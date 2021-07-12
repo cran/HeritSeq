@@ -4,7 +4,9 @@
 \name{simData_vst}
 \alias{simData_vst}
 \title{Variance stabilize transformed version of simData.}
-\format{An object of class \code{matrix} with 881 rows and 175 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 881 rows and 175 columns.
+}
 \usage{
 simData_vst
 }
@@ -12,4 +14,3 @@ simData_vst
 Variance stabilize transformed version of simData.
 }
 \keyword{datasets}
-

@@ -4,7 +4,9 @@
 \name{para_nb}
 \alias{para_nb}
 \title{Parameter matrix obtained from simData by fitting NBMM.}
-\format{An object of class \code{matrix} with 100 rows and 3 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 100 rows and 3 columns.
+}
 \usage{
 para_nb
 }
@@ -12,4 +14,3 @@ para_nb
 Parameter matrix obtained from simData by fitting NBMM.
 }
 \keyword{datasets}
-

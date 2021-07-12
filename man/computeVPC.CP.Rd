@@ -35,4 +35,3 @@ plot(sort(vpc.cp), ylab = "Heritability (h2)", ylim = c(0,1), main = "Sorted CP 
 abline(h = 0.9, lty = 2, col = "red")
 text(50, 0.92, "h2 = 0.9", col = "red")
 }
-

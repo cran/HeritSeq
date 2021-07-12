@@ -5,8 +5,15 @@
 \title{Compute variance partition coefficition (VPC) confidence intervals (CI) 
 for one or more features.}
 \usage{
-getBootCI(CountMatrix, Strains, which.features, num.boot, method = "NB-fit",
-  alpha = 0.05, optimizer = "nlminb")
+getBootCI(
+  CountMatrix,
+  Strains,
+  which.features,
+  num.boot,
+  method = "NB-fit",
+  alpha = 0.05,
+  optimizer = "nlminb"
+)
 }
 \arguments{
 \item{CountMatrix}{A \eqn{G\times N} count matrix. \eqn{G} is the number of 
@@ -39,20 +46,3 @@ matrix containing the CI. The second object consists of a
 \description{
 Compute VPC CI based on parametric bootstrap for one or more features.
 }
-\examples{
-\donttest{
-## Compute CI based on 100 bootstrap samples for the first feature 
-##  under NBMM. It takes a few minutes.
-NBboot <- getBootCI(simData, strains, 1, 100)
-## Extract CI
-NBboot.ci <- NBboot[[1]]
-## Extract vpcs
-NBboot.vpc <- NBboot[[2]]
-
-## Compute CI based on 100 bootstrap samples for the first feature
-##  under vst. 
-VSTboot <- getBootCI(simData, strains, 1, 100, method = "VST")
-}
-
-}
-

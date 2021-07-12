@@ -5,8 +5,13 @@
 \title{Fit linear mixed models (LMM) and compute the VPC values for one or more 
 features.}
 \usage{
-fitComputeVPC.lmer(CountMatrix, Strains, PriorWeights = NULL, test = FALSE,
-  VPCname = "LMM")
+fitComputeVPC.lmer(
+  CountMatrix,
+  Strains,
+  PriorWeights = NULL,
+  test = FALSE,
+  VPCname = "LMM"
+)
 }
 \arguments{
 \item{CountMatrix}{Sequencing count matrix for one or more features. Each 
@@ -48,4 +53,3 @@ pval.vst <- result.vst[[2]]
 ## Visulize the distribution of p-values.
 hist(pval.vst, breaks = 30, col = "cyan")
 }
-

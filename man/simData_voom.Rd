@@ -4,7 +4,9 @@
 \name{simData_voom}
 \alias{simData_voom}
 \title{Voom transformed version of simData.}
-\format{An object of class \code{matrix} with 881 rows and 175 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 881 rows and 175 columns.
+}
 \usage{
 simData_voom
 }
@@ -12,4 +14,3 @@ simData_voom
 Voom transformed version of simData.
 }
 \keyword{datasets}
-

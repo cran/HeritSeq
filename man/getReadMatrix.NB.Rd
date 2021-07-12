@@ -46,4 +46,3 @@ set.seed(1234)
 ## Generate reads:
 nbData <- getReadMatrix.NB(rep.num, a0s, sig2s, phis)
 }
-

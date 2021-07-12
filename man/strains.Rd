@@ -4,7 +4,9 @@
 \name{strains}
 \alias{strains}
 \title{List of strain names for the samples.}
-\format{An object of class \code{character} of length 175.}
+\format{
+An object of class \code{character} of length 175.
+}
 \usage{
 strains
 }
@@ -12,4 +14,3 @@ strains
 List of strain names for the samples.
 }
 \keyword{datasets}
-

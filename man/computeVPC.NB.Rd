@@ -35,4 +35,3 @@ main = "Sorted NB VPC scores")
 abline(h = 0.9, lty = 2, col = "red")
 text(50, 0.92, "h2 = 0.9", col = "red")
 }
-

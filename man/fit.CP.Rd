@@ -44,4 +44,3 @@ para.cp <- result.cp[[1]]
 pval.cp <- result.cp[[2]]
 
 }
-
